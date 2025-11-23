@@ -7,7 +7,7 @@ import "./styles/index.css";
 
 import App from "./App";
 import Resume from "./pages/Resume";
-import Projects from "./pages/Web3Projects";
+import Web3Projects from "./pages/Web3Projects";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
