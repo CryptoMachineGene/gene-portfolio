@@ -16,7 +16,7 @@ export default function App() {
           {[
             { to: "/", label: "Resume" },
             { to: "/demo", label: "Demo" },
-            { to: "/projects", label: "Projects" },
+            { to: "/web3-projects", label: "WEB3 Projects" },
             { to: "/blog", label: "Blog" },
           ].map(({ to, label }) => (
             <NavLink

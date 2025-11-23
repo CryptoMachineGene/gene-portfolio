@@ -7,7 +7,7 @@ import "./styles/index.css";
 
 import App from "./App";
 import Resume from "./pages/Resume";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Web3Projects";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
@@ -24,8 +24,8 @@ const router = createHashRouter([
     element: <App />,
     children: [
       { index: true, element: <Resume /> },
-      { path: "projects", element: <Projects /> },
-      { path: "demo", element: <UnderConstruction /> }, // 👈 Now directly loads UnderConstruction
+      { path: "web3-projects", element: <Web3Projects /> },
+      { path: "demo", element: <UnderConstruction /> }, 
       { path: "blog", element: <Blog /> },
       { path: "proofmint", element: <Proofmint /> },
       { path: "proofmint-demo", element: <ProofmintDemo /> },
