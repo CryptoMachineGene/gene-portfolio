@@ -11,6 +11,7 @@ import Web3Projects from "./pages/Web3Projects";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
+import BasicTroubleshooting from "./pages/BasicTroubleshooting";
 
 // project-specific pages
 import Proofmint from "./pages/Proofmint";
@@ -33,6 +34,7 @@ const router = createHashRouter([
       { path: "solana", element: <SolanaHello /> },
       { path: "under-construction", element: <UnderConstruction /> },
       { path: "*", element: <NotFound /> },
+      { path: "basic-troubleshooting", element: <BasicTroubleshooting /> },
     ],
   },
 ]);
