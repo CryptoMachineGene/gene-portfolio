@@ -344,15 +344,15 @@ export default function Resume() {
                   <img src={`${base}img/icons/github-actions.svg`} alt="GitHub Actions" />
                 </div>
                 <div className="skill-card flex-center" data-tooltip="Command Line Interface (CLI)">
-                  <img src={`${base}img/icons/terminal.svg`} alt="CLI" />
+                  <img src={`${base}img/icons/Vim.svg`} alt="CLI" />  {/* Replace with Vim icon */}
                 </div>
                 <div className="skill-card flex-center" data-tooltip="System Configuration">
                   <img src={`${base}img/icons/gear.svg`} alt="System Configuration" />
                 </div>
               </div>
-              <p className="mt-3 text-xs text-neutral-400 max-w-xl">
-                Daily tools: Linux command line (bash, SSH), basic networking (ping, traceroute, DNS), and Git-based workflows with GitHub Actions.
-              </p>
+              {/* <p className="mt-3 text-xs text-neutral-400 max-w-xl">
+                    Core IT skills include troubleshooting Linux systems, utilizing the command line for system management, providing hardware and software support, and configuring systems for optimal performance and security.
+                  </p> */}
             </div>
             
             {/* FRONTEND */}
