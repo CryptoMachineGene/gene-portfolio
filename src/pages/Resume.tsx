@@ -344,7 +344,8 @@ export default function Resume() {
                   <img src={`${base}img/icons/github-actions.svg`} alt="GitHub Actions" />
                 </div>
                 <div className="skill-card flex-center" data-tooltip="Command Line Interface (CLI)">
-                  <img src={`${base}img/icons/Vim.svg`} alt="CLI" />  {/* Replace with Vim icon */}
+                  <img src={`${base}img/icons/Vim.svg`} alt="Vim CLI" />  {/* Vim icon */}
+                  <img src={`${base}img/icons/Bash.svg`} alt="Bash CLI" />  {/* Bash icon */}
                 </div>
                 <div className="skill-card flex-center" data-tooltip="System Configuration">
                   <img src={`${base}img/icons/gear.svg`} alt="System Configuration" />
